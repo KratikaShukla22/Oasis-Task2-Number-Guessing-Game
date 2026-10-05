@@ -5,8 +5,6 @@ import java.util.Scanner;
                 public class NumberGuessingGame {
                     private int randomNumber;
                     private int attempts;
-                    private int maxNumber;
-                    private int maxAttempts;
                     void generateNumber(int maxNumber) {
                         randomNumber = (int)(Math.random() * maxNumber) + 1;
                     }
